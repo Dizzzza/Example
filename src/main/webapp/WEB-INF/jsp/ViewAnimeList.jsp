@@ -67,6 +67,14 @@
 
         </form:form>
 
+	<form:form action="/createPayment" method="post" class="mt-4">
+        <div class="form-group">
+            <label for="amount" class="font-weight-bold">Enter sum:</label>
+            <input type="text" id="amount" name="amount" class="form-control" placeholder="Enter amount" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+    </form:form>
+
         <button type="button" class="btn btn-primary btn-block">
         	<a href="/addAnime">Add New Anime</a>
         </button>
